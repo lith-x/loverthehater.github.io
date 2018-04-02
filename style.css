@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+body {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    background-color: rgb(243,236,226);
+}
+
+div {
+    transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+div:hover {
+    transform: scale(1.05);
+}
+
+.header {
+    margin-top: 50px;
+    font-size: 55pt;
+}
+
+.text {
+    margin-top: 30px;
+    font-size: 20pt;
+}
