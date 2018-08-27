@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Discord Name Colors</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Catamaran:500');
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #3e3639;
+        }
+        #gridcontainer {
+            display: grid;
+            grid-template-columns: min-content 1fr;
+            gap: 20px 20px;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+        }
+        #colorpicker {
+            justify-self: end;
+        }
+        #profile {
+            justify-self: start;
+            display: flex;
+        }
+        #username {
+            font-family: 'Catamaran', sans-serif;
+            font-size: 45pt;
+            margin-top: 10px;
+
+        }
+        #profilepic {
+            height: 100px;
+            width: 100px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="./bundle.js"></script>
+</body>
+
+</html>
