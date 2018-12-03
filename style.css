@@ -6,10 +6,6 @@ body {
     background-color: rgb(243,236,226);
 }
 
-div {
-    transition: all 0.85s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
 .header {
     margin-top: 50px;
     font-size: 55pt;
